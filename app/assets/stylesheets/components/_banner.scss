@@ -1,0 +1,17 @@
+.banner {
+  background-size: cover;
+  background-position: center;
+  padding: 150px 0;
+  height: 60vh;
+  position: relative;
+  background-image: url('/assets/banner.png');
+}
+
+@media (max-width: 600px) {
+  .banner {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url('/assets/bannermobile.png');
+    height: 90vh;
+  }
+}
