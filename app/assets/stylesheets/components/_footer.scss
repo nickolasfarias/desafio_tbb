@@ -1,0 +1,36 @@
+.footer {
+  width: 100vw;
+  height: 30vh;
+  background-color: #389CD6;
+  color:white;
+}
+
+.first-footer-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.second-footer-row {
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+}
+
+.line {
+  width: 0px;
+  height: 24px;
+  border: 1px solid #FFFFFF;
+  opacity: 1;
+  background-color: #FFFFFF;
+}
+
+.footer-link {
+  text-decoration: none;
+  color:white;
+}
+
+.footer-link:hover {
+  color: white;
+  font-weight: bolder;
+}

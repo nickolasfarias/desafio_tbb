@@ -1,7 +1,7 @@
 import { Controller } from "@hotwired/stimulus"
 
 export default class extends Controller {
-  static targets = ["about", "our", "intimate", "contact", "sub1", "sub2", "sub3"];
+  static targets = ["about", "our", "intimate", "lines", "close", "contact", "sub1", "sub2", "sub3"];
 
   connect() {
     console.log("Hello from our first Stimulus controller");
@@ -43,4 +43,10 @@ export default class extends Controller {
     this.sub2Target.classList.add("display-none");
     this.sub3Target.classList.add("display-none");
   }
+
+  displayicon() {
+    this.linesTarget.classList.toggle("d-none");
+    this.closeTarget.classList.toggle("d-none");
+  }
+
 }

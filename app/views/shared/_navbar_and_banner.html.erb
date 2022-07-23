@@ -4,8 +4,9 @@
     <div class="container-fluid">
       <div class="row" style="width:100vw;">
         <div class="col-4 col-lg-5">
-          <button class="navbar-toggler mt-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+          <button class="navbar-toggler mt-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" data-action="click->navbar#displayicon" aria-expanded="false" aria-label="Toggle navigation">
+            <span data-navbar-target="lines" class="mt-1 fas fa-align-justify"></span>
+            <span data-navbar-target="close" class="mt-1 d-none fas fa-times"></span>
           </button>
         </div>
         <div class="col-6 col-lg-5">
