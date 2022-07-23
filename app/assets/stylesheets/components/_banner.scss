@@ -7,11 +7,29 @@
   background-image: url('/assets/banner.png');
 }
 
+.banner2 {
+  background-size: cover;
+  background-position: center;
+  padding: 150px 0;
+  height: 60vh;
+  margin-top: 100px;
+  position: relative;
+  background-image: url('/assets/banner2.png');
+}
+
 @media (max-width: 600px) {
   .banner {
     background-size: contain;
     background-repeat: no-repeat;
     background-image: url('/assets/bannermobile.png');
     height: 90vh;
+  }
+
+  .banner2 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url('/assets/banner2mobile.png');
+    height: 90vh;
+    margin-top: 250px;
   }
 }
