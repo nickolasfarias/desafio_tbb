@@ -12,6 +12,17 @@
 }
 
 ////////////////////////
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 14%;
+}
+
+.position-icon {
+  position:relative;
+  right: 180px;
+}
 
 .search-icon {
   width: 24px;
@@ -124,6 +135,14 @@
 
   .mini-navbar {
     display: block;
+  }
+
+  .center {
+    width: 35%;
+  }
+  
+  .position-icon {
+    position: initial;
   }
 
 }
