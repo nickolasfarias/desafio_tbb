@@ -19,7 +19,7 @@
     background-color: #389CD6;
     color: white;
     text-align: center;
-    padding:10px;
+    padding-top: 25px;
     border-bottom-left-radius:10px;
     border-bottom-right-radius:10px;
   }
@@ -30,7 +30,7 @@
     background-color: #309D5F;
     color: white;
     text-align: center;
-    padding:10px;
+    padding-top: 25px;
     border-bottom-left-radius:10px;
     border-bottom-right-radius:10px;
   }
@@ -41,13 +41,13 @@
     background-color: #EE6381;
     color: white;
     text-align: center;
-    padding:10px;
+    padding-top: 25px;
     border-bottom-left-radius:10px;
     border-bottom-right-radius:10px;
   }
 
   .carousel-product-height {
-    height:360px;
+    height:390px;
   }
 
   .banner {
@@ -94,13 +94,13 @@
 @media (min-width: 400px) {
   .img-product {
     width: 100%;
-    height: 80%;
+    height: 70%;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
   }
 
   .name-product {
-    height: 10%;
+    height: 15%;
     background-color: #FFFFFF;
     color:#7B7070;
     text-align: center;
@@ -108,39 +108,39 @@
 
   .info1 {
     width: 100%;
-    height: 10%;
+    height: 15%;
     background-color: #389CD6;
     color: white;
     text-align: center;
-    padding:10px;
+    padding-top: 25px;
     border-bottom-left-radius:10px;
     border-bottom-right-radius:10px;
   }
 
   .info2 {
     width: 100%;
-    height:10%;
+    height:15%;
     background-color: #309D5F;
     color: white;
     text-align: center;
-    padding:10px;
+    padding-top: 25px;
     border-bottom-left-radius:10px;
     border-bottom-right-radius:10px;
   }
 
   .info3 {
     width: 100%;
-    height:10%;
+    height:15%;
     background-color: #EE6381;
     color: white;
     text-align: center;
-    padding:10px;
+    padding-top: 25px;
     border-bottom-left-radius:10px;
     border-bottom-right-radius:10px;
   }
 
   .carousel-product-height {
-    height:450px;
+    height:490px;
   }
 
 
