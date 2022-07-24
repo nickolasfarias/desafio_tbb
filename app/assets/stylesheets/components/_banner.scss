@@ -82,6 +82,13 @@
     position:absolute;
     top:0;
   }
+
+  .main-text {
+    text-align: center;
+    font-family: 'Trebuchet MS';
+    color: #389CD6;
+    font-size: 20px;
+  }
 }
 
 @media (min-width: 400px) {
@@ -161,6 +168,13 @@
   .banner-mobile2 {
     height: 92vh;
   }
+
+  .main-text {
+    text-align: center;
+    font-family: 'Trebuchet MS';
+    color: #389CD6;
+    font-size: 28px;
+  }
 }
 
 
@@ -190,5 +204,12 @@
 
   .banner-mobile2 {
     display: none;
+  }
+
+  .main-text {
+    text-align: center;
+    font-family: 'Trebuchet MS';
+    color: #389CD6;
+    font-size: 39px;
   }
 }
