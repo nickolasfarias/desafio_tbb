@@ -1,34 +1,67 @@
-.banner {
-  background-size: cover;
-  background-position: center;
-  padding: 150px 0;
-  height: 60vh;
-  position: relative;
-  background-image: url('https://res.cloudinary.com/getacar/image/upload/v1658668661/banner_wkvitj.png');
-}
-
-.banner2 {
-  background-size: cover;
-  background-position: center;
-  padding: 150px 0;
-  height: 60vh;
-  margin-top: 100px;
-  position: relative;
-  background-image: url('https://res.cloudinary.com/getacar/image/upload/v1658668769/banner2_ohsljv.png');
-}
-
-@media (max-width: 428px) {
+@media (min-width: 310px) {
   .banner {
     background-size: contain;
+    background-position: center;
+    padding: 150px 0;
+    position: relative;
     background-repeat: no-repeat;
     background-image: url('https://res.cloudinary.com/getacar/image/upload/v1658668705/bannermobile_wbxhza.png');
-    height: 65vh;
+    height: 70vh;
   }
 
   .banner2 {
     background-size: contain;
     background-repeat: no-repeat;
+    background-position: center;
+    padding: 150px 0;
+    margin-top: 100px;
+    position: relative;
     background-image: url('https://res.cloudinary.com/getacar/image/upload/v1658668808/banner2mobile_zz57qd.png');
-    height: 90vh;
+    height: 70vh;
+  }
+}
+
+@media (min-width: 400px) {
+  .banner {
+    background-size: contain;
+    background-position: center;
+    padding: 150px 0;
+    position: relative;
+    background-repeat: no-repeat;
+    background-image: url('https://res.cloudinary.com/getacar/image/upload/v1658668705/bannermobile_wbxhza.png');
+    height: 92vh;
+  }
+
+  .banner2 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 150px 0;
+    margin-top: 100px;
+    position: relative;
+    background-image: url('https://res.cloudinary.com/getacar/image/upload/v1658668808/banner2mobile_zz57qd.png');
+    height: 92vh;
+  }
+}
+
+
+@media (min-width:700px) {
+  .banner {
+    background-size: cover;
+    background-position: center;
+    padding: 150px 0;
+    height: 60vh;
+    position: relative;
+    background-image: url('https://res.cloudinary.com/getacar/image/upload/v1658668661/banner_wkvitj.png');
+  }
+
+  .banner2 {
+    background-size: cover;
+    background-position: center;
+    padding: 150px 0;
+    height: 60vh;
+    margin-top: 100px;
+    position: relative;
+    background-image: url('https://res.cloudinary.com/getacar/image/upload/v1658668769/banner2_ohsljv.png');
   }
 }
