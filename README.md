@@ -10,7 +10,7 @@
 
 ## Solução adotada 
 
-  O objetivo final era implementar uma página responsiva na versão pc e mobile. Para isso, peguei o layout desejado e o dividi em componentes. Para a navbar, usei a navbar exemplo do bootstrap com o toggler e fui adaptando, já que a navbar desejada tinha duas fileiras aparentes (a branca de cima com a logo e a azul de baixo com os botões).
+  O objetivo final era implementar uma página responsiva na versão pc e mobile. Para isso, peguei o layout desejado e dividi em componentes. Para a navbar, usei a navbar exemplo do bootstrap com o toggler e fui adaptando, já que a navbar desejada tinha duas fileiras aparentes (a branca de cima com a logo e a azul de baixo com os botões).
   
   O detalhe aqui foi a fileira de baixo, já que três botões dela geravam nav-bares cinzas, que inicialmente estariam ocultas (usei o "display:none;" para isso). Depois eu fiz o primeiro banner com a imagem que me foi dada e, com a ajuda de media queries, eu alterei a imagem do banner na versão mobile. Depois fiz a seção com o texto ("we're here to help...) e os icons azuis, outra seção com o texto "whatever your age. whatever your lifestyle. whatever your interests..." e outra seção com o texto "our products..." e os cards dos produtos.
   
