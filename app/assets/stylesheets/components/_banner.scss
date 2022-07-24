@@ -4,7 +4,7 @@
   padding: 150px 0;
   height: 60vh;
   position: relative;
-  background-image: url('/assets/banner.png');
+  background-image: url('https://res.cloudinary.com/getacar/image/upload/v1658668661/banner_wkvitj.png');
 }
 
 .banner2 {
@@ -14,21 +14,21 @@
   height: 60vh;
   margin-top: 100px;
   position: relative;
-  background-image: url('/assets/banner2.png');
+  background-image: url('https://res.cloudinary.com/getacar/image/upload/v1658668769/banner2_ohsljv.png');
 }
 
 @media (max-width: 600px) {
   .banner {
     background-size: contain;
     background-repeat: no-repeat;
-    background-image: url('/assets/bannermobile.png');
+    background-image: url('https://res.cloudinary.com/getacar/image/upload/v1658668705/bannermobile_wbxhza.png');
     height: 90vh;
   }
 
   .banner2 {
     background-size: contain;
     background-repeat: no-repeat;
-    background-image: url('/assets/banner2mobile.png');
+    background-image: url('https://res.cloudinary.com/getacar/image/upload/v1658668808/banner2mobile_zz57qd.png');
     height: 90vh;
     margin-top: 250px;
   }
