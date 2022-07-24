@@ -43,7 +43,7 @@
 <div class="row mt-4 mb-5 cards-products">
   <div class="col-2 "></div>
 
-  <div class="col-2" style="height:320px">
+  <div class="col-2" style="height:280px">
       <img src="<%= image_path "imagemask1.png" %>" class="img-product" alt="">
       <div class="info1">
         <h4>wellness</h4>
@@ -52,7 +52,7 @@
 
   <div class="col-1"></div>
 
-  <div class="col-2" style="height:320px">
+  <div class="col-2" style="height:280px">
       <img src="<%= image_path "imagemask2.png" %>" class="img-product" alt="">
       <div class="info2">
         <h4>active</h4>
@@ -61,7 +61,7 @@
 
   <div class="col-1"></div>
 
-  <div class="col-2" style="height:320px">
+  <div class="col-2" style="height:280px">
       <img src="<%= image_path "imagemask3.png" %>" class="img-product" alt="">
       <div class="info3">
         <h4>agecare</h4>
@@ -123,7 +123,7 @@
 
 <div class="row mt-4 mb-5 articles cards-products">
 
-  <div class="col-4" style="height:340px">
+  <div class="col-4 img-article-div">
       <img src="<%= image_path "article1.png" %>" class="img-article" alt="">
       <div class="info-article">
         <h6>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h6>
@@ -131,7 +131,7 @@
   </div>
 
 
-  <div class="col-4" style="height:340px">
+  <div class="col-4 img-article-div">
       <img src="<%= image_path "article2.png" %>" class="img-article" alt="">
       <div class="info-article">
         <h6>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h6>
@@ -139,7 +139,7 @@
   </div>
 
 
-  <div class="col-4" style="height:340px">
+  <div class="col-4 img-article-div">
       <img src="<%= image_path "article3.png" %>" class="img-article" alt="">
       <div class="info-article">
         <h6>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h6>
@@ -153,7 +153,7 @@
 <div class="d-flex align-item-center justify-content-center m-5 carousel-div">
 
   <div>
-    <div id="carouselExampleControls2" class="carousel slide shadow carousel-borders" data-bs-ride="carousel" style="height:350px">
+    <div id="carouselExampleControls2" class="carousel slide shadow carousel-borders" data-bs-ride="carousel" style="height:auto;">
       <div class="carousel-inner">
         <div class="carousel-item active">
           <img src="<%= image_path "article1.png" %>" class="img-article" alt="">
@@ -187,8 +187,14 @@
 
 </div>
 
-<div class="d-flex align-items-center justify-content-center mb-5">
-  <button class="see-more mb-5">see more</button>
+<div class="row">
+  <div class="col-0 col-lg-4"></div>
+  <div class="col-12 col-lg-4 d-flex align-items-center justify-content-center mb-5">
+    <button class="btn-see-more mb-4">see more</button>
+  </div>
+  <div class="col-0 col-lg-4"></div>
 </div>
+
+
 
 <%= render 'shared/footer' %>
